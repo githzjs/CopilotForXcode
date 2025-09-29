@@ -9,7 +9,7 @@ public class AvatarViewModel: ObservableObject {
     
     public func loadAvatar(forUser userName: String?) {
         guard let userName = userName, !userName.isEmpty
-        else {
+        else
             avatarImage = nil
             return
         }
